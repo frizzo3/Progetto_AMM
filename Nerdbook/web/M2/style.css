@@ -33,11 +33,12 @@ and open the template in the editor.
 }
 #navbar{
     border-style: solid;
-    background-color: greenyellow;
+    background-color: #99ccff;
     border-color: black;
     border-bottom:none;
     height: 55px;
-    margin-right: 6px;
+    margin-right: 1%;
+    
     
 }
 #status{
@@ -90,10 +91,14 @@ and open the template in the editor.
 #utente{
     border-style: solid;
     border-color: black;
-    border-right: none;
     border-left: none;
     border-top: none;
+    border-right: none;
     border-bottom: none;
-    height: 50px;
+    height: 55px;
+    width: 200px;
     float: right;
+}
+#a{
+    text-decoration: none;
 }
