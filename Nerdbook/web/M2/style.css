@@ -7,26 +7,93 @@ and open the template in the editor.
     Created on : 28-mar-2017, 9.46.29
     Author     : Francesco
 */
-body{
-    background-color: #E0FFFF;
-    font: 17px/25px "Open Sans", Arial, sans-serif;
-}
 
-h1{
-    background-color: #4682B4;
-    color: #FFFFFF;
-    font: 40px/50px "Open Sans", Arial, sans-serif;
-    font-weight: bold;
+#posts{
+    border-style: solid;
+    border-color: black;
+    width: 78%;
+    float:left;
+    border-top:none;
 }
-h2{
-    background-color: #4682B4;
-    color: #FFFFFF;
-    font: 40px/50px "Open Sans", Arial, sans-serif;
-    font-weight: bold;
+.post{
+    margin-left: 24%;
+    margin-bottom: 3%;
+    margin-top: 1%;
+    border-style: solid;
+    border-color: black;
+    width: 400px;
+    
 }
-h3{
-    background-color: #4682B4;
-    color: #FFFFFF;
-    font: 40px/50px "Open Sans", Arial, sans-serif;
-    font-weight: bold;
+#leftbar{
+    border-style: solid;
+    border-color: black;
+    border-right:none;
+    width:200px;
+    float:left;
+}
+#navbar{
+    border-style: solid;
+    background-color: greenyellow;
+    border-color: black;
+    border-bottom:none;
+    height: 55px;
+    margin-right: 6px;
+    
+}
+#status{
+   border-style: solid; 
+   border-color: black;
+   width: 78%;
+   height: 55px;  
+   margin-left: 203px;
+   line-height: 0.6;
+}
+#title{
+    border-style: solid;
+    border-color: black;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    text-align: center;
+    height: 55px;
+    float: left;
+    width: 200px;
+    line-height: 0.5; 
+    
+}
+#profilo{
+    border-style: solid;
+    border-color: black;
+    border-top: none;
+    border-bottom: none;
+    border-right:none;
+    border-left:none;
+    height: 55px;
+    float: left;
+    line-height: 0.5; 
+    width: 130px;
+    text-align:center;
+    
+}
+#bacheca{
+    border-style: solid;
+    border-color: black;
+    border-top:none;
+    border-bottom:none;
+    height: 55px;
+    float: left;
+    width: 130px;
+    line-height: 0.5; 
+    text-align: center;
+    
+}
+#utente{
+    border-style: solid;
+    border-color: black;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+    height: 50px;
+    float: right;
 }
