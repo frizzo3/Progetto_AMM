@@ -8,53 +8,21 @@ and open the template in the editor.
     Author     : Francesco
 */
 
+/*---------------Caratteristiche generali*/
 body{
     background-image: url('Img/background.jpg');
 }
-#posts{
-    border-style: solid;
-    border-color: black;
-    width: 78%;
-    float:left;
-    border-top:none;
-}
-.post{
-    margin-left: 24%;
-    margin-bottom: 3%;
-    margin-top: 1%;
-    border-style: solid;
-    border-color: black;
-    background-color: white;
-    width: 400px;
-    
-}
-#leftbar{
-    border-style: solid;
-    border-color: black;
-    border-right:none;
-    text-align: center;
-    width:200px;
-    height: 605px;
-    float:left;
-}
+
+
+/*---------------NavBar*/
 #navbar{
     border-style: solid;
     background-color: #99ccff;
     border-color: black;
     height: 55px;
-    margin-right: 1%;
-    
-    
+    margin-right: 1%;   
 }
-#status{
-   border-style: solid; 
-   border-color: black;
-   background-color: white;
-   width: 78%;
-   height: 55px;  
-   margin-left: 203px;
-   line-height: 0.6;
-}
+
 #title{
     border-style: solid;
     border-color: black;
@@ -69,6 +37,7 @@ body{
     line-height: 0.5; 
     
 }
+
 #profilo{
     border-style: solid;
     border-color: black;
@@ -107,15 +76,64 @@ body{
     text-align: center;  
 }
 #utente{
-    margin:0;
     float: right;
+    line-height: 0.2;
+}
+#log{
+    border-style: solid;
+    border-color: black;
+    border-top:none;
+    border-bottom:none;
+    height: 55px;
+    float: left;
+    width: 130px;
+    line-height: 0.5; 
+    text-align: center;    
 }
 
-#logout{
-    clear:right;
+/*---------------Bacheca*/
+#posts{
+    border-style: solid;
+    border-color: black;
+    width: 78%;
+    float:left;
+    border-top:none;
+}
+.post{
+    margin-left: 24%;
+    margin-bottom: 3%;
+    margin-top: 1%;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    width: 400px;
+    
 }
 
-/*CSS RELATIVO AL LOGIN*/
+#status{
+   border-style: solid; 
+   border-color: black;
+   background-color: white;
+   width: 78%;
+   height: 55px;  
+   margin-left: 203px;
+   line-height: 0.6;
+}
+
+/*---------------Bacheca*/
+#leftbar{
+    border-style: solid;
+    border-color: black;
+    border-right:none;
+    border-top: none;
+    text-align: center;
+    width:200px;
+    height: 608px;
+    float:left;
+}
+
+
+/*---------------Login*/
 #login{
     border-style: solid;
     border-color: black;
@@ -124,6 +142,7 @@ body{
     height: 230px;
     margin-left: 22.5%;
 }
+
 #logintext{
     text-align: center;
 }
@@ -136,12 +155,12 @@ body{
     text-align: center;
 }
 
-#header{
+#loginheader{
     width: 250px;
     height: 70px;
     margin-left: 37.5%;
     margin-top: 15%;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     line-height: 2.5;
 }
 
@@ -191,13 +210,14 @@ input[type=submit]{
     margin-left: 25%;
 }
 
-/*CSS PROFILO*/
+/*---------------Profilo*/
 #profile{
     border-style: solid;
     border-color: black;
+    border-top: 7px;
     width: 78%;
     float:left;
-    height: 605px;
+    height: 607px;
 }
 
 #profiletitle{
@@ -224,4 +244,20 @@ input[type=submit]{
     text-align: center; 
     margin-top: 30px;
     margin-left: 10px;
+}
+
+
+/*---------------Descrizione*/
+#descriptionbox{
+    text-align: left;
+}
+
+#descriptiontitle{
+    line-height: 3.6;
+    margin-top:5%;
+    margin-left: 3%;
+}
+#descriptiontext{
+    margin-top:3%;
+    margin-left: 3%;
 }
