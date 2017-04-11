@@ -11,41 +11,90 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Francesco Rizzo">
         <meta name="keywords" content="nerdbook social network">
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
     </head>
     <body>
-        <h1>Il tuo profilo</h1>
-        <form action="/" method="get">
-            <label for="nome">Inserire nome utente: </label>
-                <input type="text" name="nome" id="nome" value="" />
-            <br/>
-            <label for="cognome">Inserire cognome utente: </label>
-                <input type="text" name="cognome" id="cognome" value="" />
-            <br/>
-            <label for="fotoprofilo">Inserire URL foto profilo: </label>
-                <input type="url" name="fotoprofilo" id="fotoprofilo" value="" />
-            <br/>
-            <label for="lungo">Inserire frase di presentazione: </label>
-                <textarea rows="4" cols="20"  id="lungo"> </textarea>
-            <br/>
-            <label for="data">Inserire data di nascita: </label>
-                <input type="text" name="data" id="data" value="" />
-            <br/>
-            <label for="password">Inserire password: </label>
-                <input type="password" name="password” " id="password" value="oscurato" />
-            <br/>
-            <label for="password2">Reinserire la password: </label>
-                <input type="password" name="password2” " id="password2" value="oscurato" />
-            <br/>
-            <button type="submit">Procedi</button>
-        </form>
+        <div id="navbar">
+            <div id="title">
+                <h1>NerdBook</h1>
+            </div>
+            <div id="bacheca">
+                <h1>
+                     <a href="bacheca.html">Bacheca</a>
+                </h1>
+            </div>
+            <div id="descriz">
+                <h1>
+                     <a href="descriz.html">Descrizione</a>
+                </h1>
+            </div>
+            
+            <div id="utente">
+                <h3>Francesco Rizzo</h3>
+            </div>
+            
+        </div>
         
-        <p>Sezione di Navigazione</p>
-        <nav>
-            <ol>
-                <li><a href="descrizione.html">Descrizione</a></li>
-                <li><a href="login.html">Login</a></li>
-            </ol>
-        </nav>
-        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+        <div id="leftbar">
+            <div id="people">    
+                <h2>Persone</h2>
+                <h3>Mario Rossi</h3>
+                <h3>Sonia Bergamasco</h3>
+                <h3>Marco Bocci</h3>
+            </div>    
+            <div id="groups">
+                <h2>Gruppi</h3>
+                <h3>Mongolfieristi</h3>
+                <h3>Ritardatari</h3>
+            </div>
+        </div>
+        
+        <div id="profile">
+            <div id="primary_image">
+                 <img title="Profilo " alt="foto profilo" src="Img/user.png" width="80" height="80">
+            </div>
+            <div id="profiletitle">
+                <h2>Il mio profilo</h2>
+            </div>
+            <div id="info_personali">
+                <div id="forms">
+                    <form name="info" method="POST" action="#">
+                        <div class="style_form">
+                            <label for="nome">Nome:</label>
+                            <input type="text" placeholder="nome" name="textType" id="nome">
+                        </div>
+                        <div class="style_form">
+                            <label for="cognome">Cognome:</label>
+                            <input type="text" placeholder="cognome" name="textType" id="cognome">
+                        </div>
+                        <br/>
+                        <div class="style_form">
+                            <label for="profile_img">Immagine Profilo:</label>
+                            <input type="file" name="profile_img" id="profile_img">
+                        </div>
+                        <br/>
+                        <div class="style_form">
+                            <label for='presentation'> Presentazione:</label>
+                            <textarea name="presentazione" placeholder="frase di presentazione" id="presentation"></textarea>
+                        </div>
+                        <br/>
+                        <div class="style_form">
+                            <label for="data"> Data di Nascita</label>
+                            <input type="date" name="birth_date" id="data">
+                        </div>
+                        <br/>
+                        <div class="style_form">
+                            <label for="pswd"> Password:</label>
+                            <input type="password" name="password" id="pswd" value="oscurato">
+                        </div>
+                        <div class="style_form">
+                            <label for="pswd2"> Ripeti Password:</label>
+                            <input type="password" name="password" id="pswd2" value="oscurato">
+                        </div>
+                        <input type="submit" id="submit" name="submit" value="Conferma" />
+                    </form>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

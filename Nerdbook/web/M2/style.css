@@ -8,6 +8,9 @@ and open the template in the editor.
     Author     : Francesco
 */
 
+body{
+    background-image: url('Img/background.jpg');
+}
 #posts{
     border-style: solid;
     border-color: black;
@@ -21,6 +24,7 @@ and open the template in the editor.
     margin-top: 1%;
     border-style: solid;
     border-color: black;
+    background-color: white;
     width: 400px;
     
 }
@@ -28,14 +32,15 @@ and open the template in the editor.
     border-style: solid;
     border-color: black;
     border-right:none;
+    text-align: center;
     width:200px;
+    height: 605px;
     float:left;
 }
 #navbar{
     border-style: solid;
     background-color: #99ccff;
     border-color: black;
-    border-bottom:none;
     height: 55px;
     margin-right: 1%;
     
@@ -44,6 +49,7 @@ and open the template in the editor.
 #status{
    border-style: solid; 
    border-color: black;
+   background-color: white;
    width: 78%;
    height: 55px;  
    margin-left: 203px;
@@ -53,6 +59,7 @@ and open the template in the editor.
     border-style: solid;
     border-color: black;
     border-left: none;
+    border-right: none;
     border-top: none;
     border-bottom: none;
     text-align: center;
@@ -68,7 +75,6 @@ and open the template in the editor.
     border-top: none;
     border-bottom: none;
     border-right:none;
-    border-left:none;
     height: 55px;
     float: left;
     line-height: 0.5; 
@@ -81,6 +87,7 @@ and open the template in the editor.
     border-color: black;
     border-top:none;
     border-bottom:none;
+    border-right: none;
     height: 55px;
     float: left;
     width: 130px;
@@ -88,17 +95,133 @@ and open the template in the editor.
     text-align: center;
     
 }
-#utente{
+#descriz{
     border-style: solid;
     border-color: black;
-    border-left: none;
-    border-top: none;
-    border-right: none;
-    border-bottom: none;
+    border-top:none;
+    border-bottom:none;
     height: 55px;
-    width: 200px;
+    float: left;
+    width: 170px;
+    line-height: 0.5; 
+    text-align: center;  
+}
+#utente{
+    margin:0;
     float: right;
 }
-#a{
+
+#logout{
+    clear:right;
+}
+
+/*CSS RELATIVO AL LOGIN*/
+#login{
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    width: 550px;
+    height: 230px;
+    margin-left: 22.5%;
+}
+#logintext{
+    text-align: center;
+}
+
+#user{
+    text-align: center;
+}
+
+#pass{
+    text-align: center;
+}
+
+#header{
+    width: 250px;
+    height: 70px;
+    margin-left: 37.5%;
+    margin-top: 15%;
+    margin-bottom: 5px;
+    line-height: 2.5;
+}
+
+input[type=password]{
+    width:400px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 7px 12px;
+    margin-top: 10px;
+    margin-bottom:5px;
+    margin-right: 4px;
+    margin-left: 3px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+input[type=text]{
+    width:400px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 7px 12px;
+    margin-top: 5px;
+    margin-bottom:5px;
+    margin-right: 4px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+input[type=submit]{
+    font-size: 15px;
+    width: 50%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-left: 30%;
+    margin-top: 4%;
+    background-color: #99ccff;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: black;
     text-decoration: none;
+}
+
+#login_button{
+    margin-left: 25%;
+}
+
+/*CSS PROFILO*/
+#profile{
+    border-style: solid;
+    border-color: black;
+    width: 78%;
+    float:left;
+    height: 605px;
+}
+
+#profiletitle{
+    text-align: center;
+}
+
+#info_personali{
+    float: left;
+    margin-left: 50px;
+    margin-top:2px;
+}
+
+.style_form {
+    display: table-row;
+}
+
+.style_form label{
+    width: 200px;
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+#primary_image{
+    text-align: center; 
+    margin-top: 30px;
+    margin-left: 10px;
 }

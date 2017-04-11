@@ -11,31 +11,31 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="author" content="Francesco Rizzo">
         <meta name="keywords" content="nerdbook social network">
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
     </head>
     <body>
         <div id="header">
-                <h1>NerdBook: Login Utente</h1>
+            <img title="Logo" alt="logo di nerdbook" style="float:left;margin: 5px" src="Img/nerd.jpg" width="70" height="68">
+            <h1>Nerdbook</h1>
+        </div>
+      
+        <div id="login">
+            <div id="logintext">
+                <h2>Inserisci nome utente e password</h2>
+            </div>
+            <form action="/" method="get">
+                <div id="user">
+                    <label for="username">Username</label> <input type="text" name="username" id="username" value="" />
+                </div>
+           
+                <div id="pass"> 
+                    <label for="pswd">Password</label> <input type="password" name="pswd” " id="pswd" value="oscurato" />
+                </div>
+        
+        
+                <input type="submit" id="login_button" name="submit" value="Conferma" />
+            </form>
         </div>
         
-        <form action="/" method="get">
-            <label for="username">Username</label>
-            <input type="text" name="username" id="username" value="" />
-            <br />
-            <label for="pswd">Password</label>
-            <input type="password" name="pswd” " id="pswd" value="oscurato" />
-        <br/>
-            <button type="submit">Procedi</button>
-        </form>
-        
-        <p>Sezione di Navigazione</p>
-        <nav>
-            <ol>
-                <li><a href="descrizione.html">Descrizione</a></li>
-                <li><a href="profilo.html">Profilo</a></li>
-                <li><a href="bacheca.html">Bacheca</a></li>
-                
-            </ol>
-        </nav>
-        <link rel="stylesheet" type="text/css" href="style.css" media="screen">
     </body>
 </html>
