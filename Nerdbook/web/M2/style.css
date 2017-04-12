@@ -12,6 +12,39 @@ and open the template in the editor.
 body{
     background-image: url('Img/background.jpg');
 }
+h1 {
+     font-family: Open-sans, "Times New Roman", serif;
+}
+h2{
+    font-family: Open-sans, "Times New Roman", serif;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none; 
+    font-weight: bold;
+    color: black;
+}
+ 
+a:hover {
+    color: #0080FF;
+}
+
+/*------------------Pulsanti*/
+#login_button{
+    margin-left: 25%;
+}
+
+#login_button:active {
+  position: relative;
+  top: 1px;
+}
+
+#profilebutton:active {
+  position: relative;
+  top: 1px;
+}
 
 
 /*---------------NavBar*/
@@ -206,9 +239,6 @@ input[type=submit]{
     text-decoration: none;
 }
 
-#login_button{
-    margin-left: 25%;
-}
 
 /*---------------Profilo*/
 #profile{
