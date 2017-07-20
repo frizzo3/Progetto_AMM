@@ -1,0 +1,300 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 28-mar-2017, 9.46.29
+    Author     : Francesco
+*/
+
+/*---------------Caratteristiche generali*/
+body{
+    background-color: #99ccff;
+}
+h1 {
+     font-family: Open-sans, "Times New Roman", serif;
+}
+h2{
+    font-family: Open-sans, "Times New Roman", serif;
+}
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none; 
+    font-weight: bold;
+    color: black;
+}
+ 
+a:hover {
+    color: #0080FF;
+}
+
+/*------------------Pulsanti*/
+#login_button{
+    margin-left: 25%;
+}
+
+#login_button:active {
+  position: relative;
+  top: 1px;
+}
+
+#profilebutton:active {
+  position: relative;
+  top: 1px;
+}
+
+
+/*---------------NavBar*/
+#navbar{
+    border-style: solid;
+    background-color: #99ccff;
+    border-color: black;
+    height: 55px;
+    margin-right: 1%;   
+}
+
+#title{
+    border-style: solid;
+    border-color: black;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    text-align: center;
+    height: 55px;
+    float: left;
+    width: 200px;
+    line-height: 0.5; 
+    
+}
+
+#profilo{
+    border-style: solid;
+    border-color: black;
+    border-top: none;
+    border-bottom: none;
+    border-right:none;
+    height: 55px;
+    float: left;
+    line-height: 0.5; 
+    width: 130px;
+    text-align:center;
+    
+}
+#bacheca{
+    border-style: solid;
+    border-color: black;
+    border-top:none;
+    border-bottom:none;
+    border-right: none;
+    height: 55px;
+    float: left;
+    width: 130px;
+    line-height: 0.5; 
+    text-align: center;
+    
+}
+#descriz{
+    border-style: solid;
+    border-color: black;
+    border-top:none;
+    border-bottom:none;
+    height: 55px;
+    float: left;
+    width: 170px;
+    line-height: 0.5; 
+    text-align: center;  
+}
+#utente{
+    float: right;
+    line-height: 0.2;
+}
+#log{
+    border-style: solid;
+    border-color: black;
+    border-top:none;
+    border-bottom:none;
+    height: 55px;
+    float: left;
+    width: 130px;
+    line-height: 0.5; 
+    text-align: center;    
+}
+
+/*---------------Bacheca*/
+#posts{
+    border-style: solid;
+    border-color: black;
+    width: 78%;
+    float:left;
+    border-top:none;
+}
+.post{
+    margin-left: 24%;
+    margin-bottom: 3%;
+    margin-top: 1%;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    width: 400px;
+    
+}
+
+#status{
+   border-style: solid; 
+   border-color: black;
+   background-color: white;
+   width: 78%;
+   height: 55px;  
+   margin-left: 203px;
+   line-height: 0.6;
+}
+
+/*---------------Bacheca*/
+#leftbar{
+    border-style: solid;
+    border-color: black;
+    border-right:none;
+    border-top: none;
+    text-align: center;
+    width:200px;
+    height: 608px;
+    float:left;
+}
+
+
+/*---------------Login*/
+#login{
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    width: 550px;
+    height: 230px;
+    margin-left: 22.5%;
+}
+
+#logintext{
+    text-align: center;
+}
+
+#user{
+    text-align: center;
+}
+
+#pass{
+    text-align: center;
+}
+
+#loginheader{
+    width: 250px;
+    height: 70px;
+    margin-left: 37.5%;
+    margin-top: 15%;
+    margin-bottom: 10px;
+    line-height: 2.5;
+}
+
+input[type=password]{
+    width:400px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 7px 12px;
+    margin-top: 10px;
+    margin-bottom:5px;
+    margin-right: 4px;
+    margin-left: 3px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+input[type=text]{
+    width:400px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 7px 12px;
+    margin-top: 5px;
+    margin-bottom:5px;
+    margin-right: 4px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+input[type=submit]{
+    font-size: 15px;
+    width: 50%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-left: 30%;
+    margin-top: 4%;
+    background-color: #99ccff;
+    border: 1px solid black;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: black;
+    text-decoration: none;
+}
+
+
+/*---------------Profilo*/
+#profile{
+    border-style: solid;
+    border-color: black;
+    border-top: 7px;
+    width: 78%;
+    float:left;
+    height: 607px;
+}
+
+#profiletitle{
+    text-align: center;
+}
+
+#info_personali{
+    float: left;
+    margin-left: 50px;
+    margin-top:2px;
+}
+
+.style_form {
+    display: table-row;
+}
+
+.style_form label{
+    width: 200px;
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+#primary_image{
+    text-align: center; 
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+
+/*---------------Descrizione*/
+#descriptionbox{
+    text-align: left;
+}
+
+#descriptiontitle{
+    line-height: 3.6;
+    margin-top:5%;
+    margin-left: 3%;
+}
+#descriptiontext{
+    margin-top:3%;
+    margin-left: 3%;
+}
+
+#sommario{
+    margin-top: -10px;
+    background-color: #99ccff;
+    width: 250px;
+    border: solid #0080FF;  
+}
